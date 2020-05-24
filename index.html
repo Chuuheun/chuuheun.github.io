@@ -1,61 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>一个进度条君</title>
-    <style>
-        .bar {
-            margin: 70px auto;
-            width: 300px;
-            height: 30px;
-            border: 3px solid skyblue;
-            border-radius: 20px;
-            padding: 3px;
-        }
-
-        .bar-in {
-            width: 30%;
-            height: 100%;
-            background-color: skyblue;
-            border-radius: 15px;
-            
-            transition: all 0.7s;
-        }
-
-        .bar:hover .bar-in {
-            width: 100%;
-        }
-
-        h2 {
-            margin-top: 100px;
-            text-align: center;
-            color: gray;
-        }
-
-        h3 {
-            margin-top: 40px;
-            text-align: center;
-            color: gray;
-        }
-        h5 {
-            margin-top: 10px;
-            text-align: center;
-            color: gray;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    user-scalable=no,maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>京东首页</title>
 </head>
-
 <body>
-    <h2>進行バー 君</h2>
-
-    <div class="bar">
-        <div class="bar-in"></div>
-
-        <h3>请点击一下我 ๑•̀ㅁ•́ฅ✧</h3>
-        <h5>点击之后就可以关闭了 Bye !</h5>
+    <!-- 顶部 -->
+    <header class="app">
+        <ul>
+            <li>
+                <img src="images/close.png" alt="">
+            </li>
+            <li>
+                <img src="images/logo.png" alt="">
+            </li>
+            <li>打开京东APP，购物更轻松</li>
+            <li>立即打开</li>
+        </ul>
+    </header>
+    <!-- 搜索 -->
+    <div class="search-wrap">
+        <div class="search-btn"></div>
+        <div class="search">
+            <div class="jd-icon"></div>
+            <div class="sou"></div>
+        </div>
+        <div class="search-login">登录</div>
     </div>
-</body>
+    <!-- 主体 -->
+    <div class="main-content">
+        <div class="slider">
+            <a href="#">
+                <img src="upload/q70.jpg" alt="">
+            </a>
+            
+        </div>
+        <!-- nav -->
+    <nav>
+        <a href="#">
+            <img src="images/nav1.webp" alt="">
+            <span>京东超市</span>
+        </a>
+        <a href="#">
+            <img src="images/nav2.webp" alt="">
+            <span>数码电器</span>
+        </a>
+        <a href="#">
+            <img src="images/nav3.webp" alt="">
+            <span>京东服饰</span>
+        </a>
+        <a href="#">
+            <img src="images/nav4.webp" alt="">
+            <span>京东生鲜</span>
+        </a>
+        <a href="#">
+            <img src="images/nav5.webp" alt="">
+            <span>京东到家</span>
+        </a>
+        <a href="#">
+            <img src="images/nav6.webp" alt="">
+            <span>充值缴费</span>
+        </a>
+        <a href="#">
+            <img src="images/nav7.webp" alt="">
+            <span>9.9元拼</span>
+        </a>
+        <a href="#">
+            <img src="images/nav8.webp" alt="">
+            <span>领券</span>
+        </a>
+        <a href="#">
+            <img src="images/nav9.webp" alt="">
+            <span>赚钱</span>
+        </a>
+        <a href="#">
+            <img src="images/nav10.webp" alt="">
+            <span>PLUS会员</span>
+        </a>
+      
+    </nav>
+    <!-- 新闻 -->
 
+    <div class="news">
+        <a href="#">
+            <img src="upload/news1.dpg" alt="">
+        </a>
+        <a href="#">
+            <img src="upload/news2.dpg" alt="">
+        </a>
+       
+    </div>
+<!-- 滚动 -->
+<div class="recommend">
+    <a href="#">
+        <img src="upload/tj1.dpg" alt="">
+    </a>
+    <a href="#">
+        <img src="upload/tj2.dpg" alt="">
+    </a>
+    <a href="#">
+        <img src="upload/tj3.dpg" alt="">
+    </a>
+</div>
+
+    </div>
+    
+</body>
 </html>
